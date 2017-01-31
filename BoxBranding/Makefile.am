@@ -1,4 +1,4 @@
-SUBDIRS = lib 
+SUBDIRS = lib remotes
 
 
 
