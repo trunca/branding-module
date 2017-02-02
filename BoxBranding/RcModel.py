@@ -1,9 +1,9 @@
 from boxbranding import getBoxType, getMachineBrand, getMachineBuild, getBrandOEM
 from Tools.StbHardware import getFPVersion
 import os
-
+PACKAGE_ARCH = "${MACHINE_ARCH}"
 boxtype = getBoxType()
-machinebuild = getMachineBuild()
+#machinearch= getMachinearch()
 machinebrand = getMachineBrand()
 brandoem = getBrandOEM()
 
