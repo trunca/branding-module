@@ -1,5 +1,3 @@
-SUBDIRS = lib remotes
+ACLOCAL_AMFLAGS = -I m4
 
-installdir = /usr/lib/enigma2/python/Components
-
-install_PYTHON = *.py
+SUBDIRS = BoxBranding
